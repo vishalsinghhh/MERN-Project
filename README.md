@@ -1,4 +1,4 @@
-# Node.js Application with Express Framework and MongoDB Database
+# MERN Stack Porject
 
 This is a Node.js application using the Express Framework and MongoDB database. It includes APIs that perform various operations on the data stored in the MongoDB database. I have populated the database with the given sampledata.json file.
 
@@ -57,3 +57,6 @@ This endpoint returns a list of users who own a car of the brand "BMW", "Mercede
 `GET` `/api/v1/allRouter/router5`
 
 This endpoint returns a list of the top 10 cities with the highest number of users and their average income.
+
+
+For frontend, go to the client and follow readme file to get started.

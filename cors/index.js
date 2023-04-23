@@ -1,7 +1,7 @@
 const cors = require('cors')
 
 const corsOption ={
-    origin:['http://localhost:3000'],
+    origin:['http://localhost:3000', 'https://oruphones.netlify.app/'],
     optionsSuccessStatus:200
 }
 

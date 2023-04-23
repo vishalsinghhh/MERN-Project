@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+* {
+  border-radius: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #fff;
+}
+html {
+  height: 100%;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: #14171f;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+.button1 {
+  display: flex;
+}
+.buttons button {
+  border: none;
+  border-radius: 20px;
+  width: 450px;
+  height: 180px;
+  margin: 20px;
+  background: linear-gradient(#272c38, #373e51);
+  font-family: "Poppins", sans-serif;
+}
+@font-face {
+  font-family: "Light"; /*Can be any text*/
+  src: local("bBigerOver"), url("./bBigerOver.ttf") format("truetype");
+}
+.view {
+  background: #000;
+  width: 100px;
+}
+.viewDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.viewDiv p {
+  font-family: "Light";
+  padding-left: 80px;
+  padding-right: 130px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.Navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Light";
+  margin: 20px;
+  font-size: 50px;
+}
+.red {
+  color: #f64a4a;
+}
+
+.underLine {
+  width: 80%;
+  height: 1px;
+  background: #878787;
+}
+p:hover {
+  color: #f64a4a;
+}
+
+.modal {
+  position: absolute;
+  width: 400px;
+  height: 600px;
+  background: #fff;
+  margin-left: 35%;
+  border-radius: 10px;
+}
+.modal {
+  overflow-y: auto;
+}
+.modalContent{
+  position: relative;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  background: #363D4F;
+  width: 80%;
+  height: 100px;
+  margin: 20px;
+  margin-left: 40px;
+  border-radius: 10px;
+}
+
+.Details{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #000;
+  font-family: 'Light';
+  font-size: 26px;
+  margin-top: 20px;
+  color: #000 !important;
+}
+.loading{
+  color: #000;
+}
+
+.modalContent p{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+  width: 50px;
+  height: 50px;
+  font-family: 'Light';
+  border-radius: 5px;
+  font-size: 18px;
+}
+.modalContentMain{
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 100; 
+  font-size: 10px !important;
+  max-width: 200px;
+  min-width: 200px;
+  margin-left: 5px;
+}
+.modal button{
+  color: #000;
+  background: #000;
+  border: none;
+  padding: 10px;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  cursor: pointer;
+}
